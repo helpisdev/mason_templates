@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <color name="plain">#b5b5d6</color>
+  <color name="material" type="material">#f3d9df</color>
+  <color name="materialAccent" type="material-accent">#9b4f3c</color>
+  <color name="materialAndMaterialAccent" type="material material-accent">#a29fa2</color>
+  <color name="lightSteelBlue" tags="primary" theme="light">#b5b5d6</color>
+  <color name="palePink" tags="primaryContainer" theme="light">#f3d9df</color>
+  <color name="coconut" tags="secondary" theme="light">#9b4f3c</color>
+  <color name="quickSilver" tags="secondaryContainer appBarColor" theme="light">#a29fa2</color>
+  <color name="paleChestnut" tags="tertiary" theme="light">#d6b9b6</color>
+  <color name="rhythm" tags="tertiaryContainer" theme="light">#7879a2</color>
+  <color name="alabamaCrimson" tags="error" theme="light">#b00020</color>
+  <color name="babyBlueEyes" tags="primary" theme="dark">#9fc9ff</color>
+  <color name="prussianBlue" tags="primaryContainer" theme="dark">#00325b</color>
+  <color name="macaroniAndCheese" tags="secondary" theme="dark">#ffb59d</color>
+  <color name="kenyanCopper" tags="secondaryContainer appBarColor" theme="dark">#872100</color>
+  <color name="middleBlue" tags="tertiary" theme="dark">#86d2e1</color>
+  <color name="midnightGreen" tags="tertiaryContainer" theme="dark">#004e59</color>
+  <color name="cinnamonSatin" tags="error" theme="dark">#cf6679</color>
+</resources>

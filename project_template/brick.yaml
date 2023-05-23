@@ -1,0 +1,70 @@
+name: project_tamplate
+description: A new brick that creates a structured project tamplate.
+
+version: 0.1.0+1
+
+environment:
+  mason: ">=0.1.0-dev <0.1.0"
+
+# Variables specify dynamic values that your brick depends on.
+# Zero or more variables can be specified for a given brick.
+# Each variable has:
+#  * a type (string, number, boolean, enum, or array)
+#  * an optional short description
+#  * an optional default value
+#  * an optional list of default values (array only)
+#  * an optional prompt phrase used when asking for the variable
+#  * a list of values (enums only)
+vars:
+  dart:
+    type: boolean
+    default: false
+  hasFlavors:
+    type: boolean
+    default: false
+  flavors:
+    type: array
+    values:
+      - "development"
+      - "production"
+      - "staging"
+  name:
+    type: string
+  author:
+    type: string
+  authorUsername:
+    type: string
+  description:
+    type: string
+  version:
+    type: string
+  repository:
+    type: string
+  homepage:
+    type: string
+  org:
+    type: string
+  IDE:
+    type: enum
+    default: "vscode"
+    values:
+      - "idea"
+      - "vscode"
+  platforms:
+    type: array
+    default:
+      - "android"
+      - "ios"
+      - "web"
+      - "macos"
+      - "windows"
+      - "linux"
+    values:
+      - "android"
+      - "ios"
+      - "web"
+      - "macos"
+      - "windows"
+      - "linux"
+  revolt:
+    type: string
