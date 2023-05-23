@@ -2,7 +2,7 @@
 # https://github.com/felangel/mason
 bricks:
   monorepo:
-    path: monorepo
+    path: project_template
   # Bricks can also be imported via git url.
   # Uncomment the following lines to import
   # a brick from a remote git url.
