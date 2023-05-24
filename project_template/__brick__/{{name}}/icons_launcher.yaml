@@ -8,6 +8,7 @@
 #       adaptive_background_image: assets/image/raster/logo.png
 #       adaptive_foreground_image: assets/image/raster/logo.png
 #       adaptive_round_image: assets/image/raster/logo.png
+#       adaptive_monochrome_image: "assets/ic_logo_monochrome.png"
 #     ios:
 #       enable: true
 #       image_path: assets/image/raster/logo.png
